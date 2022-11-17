@@ -1,0 +1,12 @@
+body{
+    height:100vh;
+    background-color:#000;
+    color:#fff;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    display: block;
+    margin-top:10px;
+}
