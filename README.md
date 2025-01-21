@@ -31,7 +31,7 @@
 
 ##  Overview
 
-<code>❯The project implements the idea of multi-auth systems as we have 3 users admin, lawyer and user each has its permissions.
+<code>❯The project implements the idea of multi-auth systems as we have 3 users admin, lawyer and user each has his own permissions.
 The admin user can manage the whole system and have all the permissions
 The Lawyer user can upload articales, comment on other Lawyers' articales.
 The user can only comment on the Lawyers' articales
