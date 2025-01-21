@@ -27,7 +27,6 @@
 - [ Getting Started](#-getting-started)
   - [ Prerequisites](#-prerequisites)
   - [ Installation](#-installation)
-  - [ Usage](#-usage)
 ---
 
 ##  Overview
@@ -279,6 +278,3 @@ Install ODC-project using one of the following methods:
 ```sh
 ❯ cd ODC-project
 ```
-###  Usage
-Make sure the apache and mysql is up then start using ODC-project follow the link:
-http://localhost/ODC-project/
