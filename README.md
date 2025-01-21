@@ -265,7 +265,7 @@ Before getting started with ODC-project, ensure you install laragon or xammp on 
 
 ###  Installation
 
-Install ODC-project using one of the following methods:
+Install ODC-project using the following methods:
 
 **Build from source:**
 
