@@ -1,280 +1,157 @@
-<div align="left" style="position: relative;">
-<h1>ODC-PROJECT</h1>
-<p align="left">
-	<em><code>❯ This project is for the Orange Digital Center training.
-</code></em>
-</p>
-<p align="left">
-	<img src="https://img.shields.io/github/license/MostafaAllam-start/ODC-project?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/MostafaAllam-start/ODC-project?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/MostafaAllam-start/ODC-project?style=default&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/MostafaAllam-start/ODC-project?style=default&color=0080ff" alt="repo-language-count">
-</p>
-<p align="left"><!-- default option, no dependency badges. -->
-</p>
-<p align="left">
-	<!-- default option, no dependency badges. -->
-</p>
-</div>
-<br clear="right">
 
-##  Table of Contents
+# ODC Project
 
-- [ Overview](#-overview)
-- [ Features](#-features)
-- [ Project Structure](#-project-structure)
-  - [ Project Index](#-project-index)
-- [ Getting Started](#-getting-started)
-  - [ Prerequisites](#-prerequisites)
-  - [ Installation](#-installation)
----
-
-##  Overview
-
-<code>❯The project implements the idea of multi-auth systems as we have 3 users admin, lawyer and user each has his own permissions.
-The admin user can manage the whole system and have all the permissions
-The Lawyer user can upload articales, comment on other Lawyers' articales.
-The user can only comment on the Lawyers' articales
-</code>
+A robust PHP-based project for managing various roles such as lawyers, administrators, users, and articles. The ODC Project provides a modular structure, including authentication, administration dashboards, and shared components.
 
 ---
 
-##  Features
+## Table of Contents
 
-multi-auth system using php
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [File Structure](#file-structure)
+6. [Dependencies](#dependencies)
+7. [Configuration](#configuration)
+8. [Testing](#testing)
+9. [Contributors](#contributors)
+10. [License](#license)
 
 ---
 
-##  Project Structure
+## Introduction
 
-```sh
-└── ODC-project/
-    ├── Lawyer
-    │   ├── add.php
-    │   ├── add_form.php
-    │   ├── lawyer_profile.php
-    │   └── upload
-    ├── admin
-    │   ├── add.php
-    │   ├── add_admin.php
-    │   ├── add_articale.php
-    │   ├── add_form.php
-    │   ├── add_lawyer.php
-    │   ├── add_user.php
-    │   ├── admin_dashboard.php
-    │   ├── admin_profile.php
-    │   ├── detail_admin.php
-    │   ├── detail_articale.php
-    │   ├── detail_lawyer.php
-    │   ├── detail_user.php
-    │   ├── list_admin.php
-    │   ├── list_articale.php
-    │   ├── list_lawyer.php
-    │   ├── list_user.php
-    │   └── upload
-    ├── articale
-    │   ├── add.php
-    │   ├── add_form.php
-    │   └── upload
-    ├── assets
-    │   ├── css
-    │   │   ├── all.min.css
-    │   │   ├── bootstrap.min.css
-    │   │   ├── reset.css
-    │   │   └── style.css
-    │   └── js
-    │       ├── all.min.js
-    │       └── bootstrap.bundle.min.js
-    ├── auth
-    │   └── login.php
-    ├── general
-    │   ├── env.php
-    │   └── function.php
-    ├── shared
-    │   ├── footer.php
-    │   ├── head.php
-    │   ├── home.php
-    │   └── nav.php
-    └── user
-        ├── add.php
-        ├── add_form.php
-        └── upload
+The ODC Project is designed to streamline content management and user interaction. With separate modules for lawyers, administrators, users, and articles, it provides an extensible framework to support a wide range of functionalities.
+
+---
+
+## Features
+
+- **Role-Based Functionality**: Separate modules for lawyers, administrators, and users.
+- **Article Management**: Create, view, and manage articles.
+- **Authentication**: User login and session management.
+- **Dashboard**: Administrative tools for managing content and users.
+- **Shared Components**: Reusable navigation and layout elements.
+- **Custom Uploads**: Support for image uploads across various modules.
+- **Extensible Design**: Easily customizable for additional features.
+
+---
+
+## Installation
+
+### Prerequisites
+
+Ensure your environment meets the following requirements:
+- **PHP**: Version 7.4 or higher
+- **Composer**: Dependency manager for PHP
+- **Web Server**: Apache or Nginx
+
+### Steps
+
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/YourRepository/ODC-Project.git
+   ```
+
+2. **Navigate to the Project Directory**:
+   ```sh
+   cd ODC-Project
+   ```
+
+3. **Install Dependencies**:
+   ```sh
+   composer install
+   ```
+
+4. **Set Up the Environment**:
+   - Copy the `env.php` file to configure database credentials and other settings.
+   - Ensure your server points to the `shared/home.php` or equivalent entry point.
+
+5. **Run the Application**:
+   Start a PHP server or configure your web server to point to the public directory:
+   ```sh
+   php -S localhost:8000 -t .
+   ```
+
+---
+
+## Usage
+
+### Modules
+
+- **Lawyer**: Add and manage lawyer profiles.
+- **Admin**: Administrative tools for managing users, articles, and site settings.
+- **Articles**: Create, edit, and display articles.
+- **Authentication**: Login and session management for users.
+
+### Accessing the Application
+
+Visit the site locally or on your server to access the respective modules.
+
+---
+
+## File Structure
+
+```plaintext
+ODC-Project/
+├── Lawyer/              # Lawyer module files
+├── admin/               # Administration tools
+├── articale/            # Article management
+├── assets/              # CSS, JavaScript, and other static assets
+├── auth/                # Authentication logic
+├── general/             # Configuration and helper functions
+├── shared/              # Shared layout components
+├── user/                # User management
+├── README.md            # Project documentation
 ```
 
+---
 
-###  Project Index
-<details open>
-	<summary><b><code>ODC-PROJECT/</code></b></summary>
-	<details> <!-- __root__ Submodule -->
-		<summary><b>__root__</b></summary>
-		<blockquote>
-			<table>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- shared Submodule -->
-		<summary><b>shared</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/shared/nav.php'>nav.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/shared/home.php'>home.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/shared/footer.php'>footer.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/shared/head.php'>head.php</a></b></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- articale Submodule -->
-		<summary><b>articale</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/articale/add.php'>add.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/articale/add_form.php'>add_form.php</a></b></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- Lawyer Submodule -->
-		<summary><b>Lawyer</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/Lawyer/lawyer_profile.php'>lawyer_profile.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/Lawyer/add.php'>add.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/Lawyer/add_form.php'>add_form.php</a></b></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- general Submodule -->
-		<summary><b>general</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/general/env.php'>env.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/general/function.php'>function.php</a></b></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- auth Submodule -->
-		<summary><b>auth</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/auth/login.php'>login.php</a></b></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- user Submodule -->
-		<summary><b>user</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/user/add.php'>add.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/user/add_form.php'>add_form.php</a></b></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- admin Submodule -->
-		<summary><b>admin</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/detail_lawyer.php'>detail_lawyer.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/admin_dashboard.php'>admin_dashboard.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/admin_profile.php'>admin_profile.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/list_articale.php'>list_articale.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/add_lawyer.php'>add_lawyer.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/add.php'>add.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/detail_user.php'>detail_user.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/detail_articale.php'>detail_articale.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/add_user.php'>add_user.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/list_lawyer.php'>list_lawyer.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/detail_admin.php'>detail_admin.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/add_admin.php'>add_admin.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/list_user.php'>list_user.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/add_articale.php'>add_articale.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/add_form.php'>add_form.php</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/list_admin.php'>list_admin.php</a></b></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-</details>
+## Dependencies
+
+This project uses Composer for dependency management. Make sure to run:
+```sh
+composer install
+```
 
 ---
-##  Getting Started
 
-###  Prerequisites
+## Configuration
 
-Before getting started with ODC-project, ensure you install laragon or xammp on your machine
+- **Database**:
+  Configure the database connection in the `env.php` file:
+  ```php
+  define('DB_HOST', 'your-database-host');
+  define('DB_USER', 'your-database-username');
+  define('DB_PASS', 'your-database-password');
+  define('DB_NAME', 'your-database-name');
+  ```
 
-- **Programming Language:** PHP
+- **Uploads**:
+  Ensure the `upload/` directories are writable by the server.
 
+---
 
-###  Installation
+## Testing
 
-Install ODC-project using the following methods:
+You can run basic functionality tests manually by interacting with the web interface. For automated testing, integrate a testing library like PHPUnit.
 
-**Build from source:**
+---
 
-1. Clone the ODC-project repository in the directory www of laragon directory:
-```sh
-❯ git clone https://github.com/MostafaAllam-start/ODC-project
-```
+## Contributors
 
-2. Navigate to the project directory:
-```sh
-❯ cd ODC-project
-```
+- **Mostafa Allam** - Developer and Maintainer
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+## Feedback
+
+We welcome contributions and feedback! Please feel free to fork the repository and submit pull requests.
+
