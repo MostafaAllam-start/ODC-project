@@ -1,7 +1,8 @@
 <div align="left" style="position: relative;">
 <h1>ODC-PROJECT</h1>
 <p align="left">
-	<em><code>❯ REPLACE-ME</code></em>
+	<em><code>❯ This project is for the training of Orange Digital Center.
+</code></em>
 </p>
 <p align="left">
 	<img src="https://img.shields.io/github/license/MostafaAllam-start/ODC-project?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
@@ -31,9 +32,7 @@
 
 ##  Overview
 
-<code>❯ 
-This project is a task for the training of Orange Digital Center.
-This project implements the idea of multi-auth systems as we have 3 users admin, lawyer and user each has its permissions.
+<code>❯The project implements the idea of multi-auth systems as we have 3 users admin, lawyer and user each has its permissions.
 The admin user can manage the whole system and have all the permissions
 The Lawyer user can upload articales, comment on other Lawyers' articales.
 The user can only comment on the Lawyers' articales
@@ -43,7 +42,7 @@ The user can only comment on the Lawyers' articales
 
 ##  Features
 
-multi-auth systems using php
+multi-auth system using php
 
 ---
 
@@ -101,7 +100,6 @@ multi-auth systems using php
         ├── add.php
         ├── add_form.php
         └── upload
-            └── 1663753663demon_slayer_blue_eyes_mitsuri_kanroji_with_sword_with_white_background_4k_hd_anime.jpg
 ```
 
 
@@ -121,19 +119,15 @@ multi-auth systems using php
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/shared/nav.php'>nav.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/shared/home.php'>home.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/shared/footer.php'>footer.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/shared/head.php'>head.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -144,11 +138,9 @@ multi-auth systems using php
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/articale/add.php'>add.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/articale/add_form.php'>add_form.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -159,15 +151,12 @@ multi-auth systems using php
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/Lawyer/lawyer_profile.php'>lawyer_profile.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/Lawyer/add.php'>add.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/Lawyer/add_form.php'>add_form.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -178,11 +167,9 @@ multi-auth systems using php
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/general/env.php'>env.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/general/function.php'>function.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -193,7 +180,6 @@ multi-auth systems using php
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/auth/login.php'>login.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -204,11 +190,9 @@ multi-auth systems using php
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/user/add.php'>add.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/user/add_form.php'>add_form.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -219,67 +203,51 @@ multi-auth systems using php
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/detail_lawyer.php'>detail_lawyer.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/admin_dashboard.php'>admin_dashboard.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/admin_profile.php'>admin_profile.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/list_articale.php'>list_articale.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/add_lawyer.php'>add_lawyer.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/add.php'>add.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/detail_user.php'>detail_user.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/detail_articale.php'>detail_articale.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/add_user.php'>add_user.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/list_lawyer.php'>list_lawyer.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/detail_admin.php'>detail_admin.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/add_admin.php'>add_admin.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/list_user.php'>list_user.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/add_articale.php'>add_articale.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/add_form.php'>add_form.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MostafaAllam-start/ODC-project/blob/master/admin/list_admin.php'>list_admin.php</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -312,5 +280,5 @@ Install ODC-project using one of the following methods:
 ❯ cd ODC-project
 ```
 ###  Usage
-Start using ODC-project follow the link:
-http://localhost/ODC-project/auth/login
+Make sure the apache and mysql is up then start using ODC-project follow the link:
+http://localhost/ODC-project/
