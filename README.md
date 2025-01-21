@@ -1,7 +1,7 @@
 <div align="left" style="position: relative;">
 <h1>ODC-PROJECT</h1>
 <p align="left">
-	<em><code>❯ This project is for the training of Orange Digital Center.
+	<em><code>❯ This project is for the Orange Digital Center training.
 </code></em>
 </p>
 <p align="left">
