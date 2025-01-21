@@ -56,9 +56,6 @@ multi-auth systems using php
     │   ├── add_form.php
     │   ├── lawyer_profile.php
     │   └── upload
-    │       ├── 1663705722demon_slayer_blue_eyes_mitsuri_kanroji_with_sword_with_white_background_4k_hd_anime.jpg
-    │       ├── 1663708239demon_slayer_blue_eyes_mitsuri_kanroji_with_sword_with_white_background_4k_hd_anime.jpg
-    │       └── 1668689339photo.jpg
     ├── admin
     │   ├── add.php
     │   ├── add_admin.php
@@ -77,23 +74,10 @@ multi-auth systems using php
     │   ├── list_lawyer.php
     │   ├── list_user.php
     │   └── upload
-    │       ├── 1663693333demon_slayer_blue_eyes_mitsuri_kanroji_with_sword_with_white_background_4k_hd_anime.jpg
-    │       ├── 1663695967demon_slayer_blue_eyes_mitsuri_kanroji_with_sword_with_white_background_4k_hd_anime.jpg
-    │       ├── 1663696107naruto-shippuuden-anime-fox-hatake-kakashi-wallpaper-preview.jpg
-    │       ├── 1663696496mountain.jpg
-    │       ├── 1663724302naruto-shippuuden-anime-fox-hatake-kakashi-wallpaper-preview.jpg
-    │       ├── 1663751491naruto-shippuuden-anime-fox-hatake-kakashi-wallpaper-preview.jpg
-    │       └── 1668688414photo.jpg
     ├── articale
     │   ├── add.php
     │   ├── add_form.php
     │   └── upload
-    │       ├── 1663762644naruto-shippuuden-anime-fox-hatake-kakashi-wallpaper-preview.jpg
-    │       ├── 1663762710naruto-shippuuden-anime-fox-hatake-kakashi-wallpaper-preview.jpg
-    │       ├── 1663762746naruto-shippuuden-anime-fox-hatake-kakashi-wallpaper-preview.jpg
-    │       ├── 1663762779naruto-shippuuden-anime-fox-hatake-kakashi-wallpaper-preview.jpg
-    │       ├── 1663762856naruto-shippuuden-anime-fox-hatake-kakashi-wallpaper-preview.jpg
-    │       └── 1663765166demon_slayer_blue_eyes_mitsuri_kanroji_with_sword_with_white_background_4k_hd_anime.jpg
     ├── assets
     │   ├── css
     │   │   ├── all.min.css
@@ -307,7 +291,7 @@ multi-auth systems using php
 
 ###  Prerequisites
 
-Before getting started with ODC-project, ensure your runtime environment meets the following requirements:
+Before getting started with ODC-project, ensure you install laragon or xammp on your machine
 
 - **Programming Language:** PHP
 
