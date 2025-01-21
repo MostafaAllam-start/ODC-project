@@ -31,13 +31,19 @@
 
 ##  Overview
 
-<code>❯ REPLACE-ME</code>
+<code>❯ 
+This project is a task for the training of Orange Digital Center.
+This project implements the idea of multi-auth systems as we have 3 users admin, lawyer and user each has its permissions.
+The admin user can manage the whole system and have all the permissions
+The Lawyer user can upload articales, comment on other Lawyers' articales.
+The user can only comment on the Lawyers' articales
+</code>
 
 ---
 
 ##  Features
 
-<code>❯ REPLACE-ME</code>
+multi-auth systems using php
 
 ---
 
