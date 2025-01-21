@@ -324,16 +324,3 @@ Install ODC-project using one of the following methods:
 ###  Usage
 Start using ODC-project follow the link:
 http://localhost/ODC-project/auth/login
-<details closed>
-
-<details closed>
-<summary>Contributor Graph</summary>
-<br>
-<p align="left">
-   <a href="https://github.com{/MostafaAllam-start/ODC-project/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=MostafaAllam-start/ODC-project">
-   </a>
-</p>
-</details>
-
----
